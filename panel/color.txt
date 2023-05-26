@@ -1,0 +1,5 @@
+Light yellow (Hex: #feda75 and RGB: 254,218,117),
+orange (Hex: #fa7e1e and RGB: 250,126,30)
+pink (Hex: #d62976 and RGB: 214,41,118)
+purple (Hex: #962fbf and RGB: 150,47,191)
+blue (Hex: #4f5bd5 and RGB: 79,91,213).

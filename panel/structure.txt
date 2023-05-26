@@ -1,0 +1,4 @@
+if cc exist
+    go to cc page
+else
+    go to generate cc 

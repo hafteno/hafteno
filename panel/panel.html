@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>تقویم تولید محتوای ....</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body dir="rtl" class="bg-light">
+   <!-- Header -->
+    <header class="bg-dark py-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-2 text-center">
+            
+          </div>
+          <div class="col-md-8 text-center">
+            <img src="/img/logo2.png" style="width:60px;" alt="Your Service Name" />
+          </div>
+          <div class="col-md-2 text-center">
+            <a href="?p=logout"><button class="btn btn-light">خروج</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Info -->
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <p>با سلام، وبسایت ما یک پلتفرم تولید تقویم محتوایی برای فعالان در شبکه های اجتماعی مانند اینستاگرام است. با داشتن تیمی از متخصصان حرفه ای، ما به صورت اختصاصی برای هر فرد تقویم محتوایی تهیه می کنیم که شامل برنامه هفتگی یا ماهانه پست های شما در شبکه های اجتماعی مورد علاقه شماست.</p>
+            <p>تقویم محتوایی ما شامل جزئیاتی در مورد موضوعات و تصاویری است که قرار است در هر پست استفاده شود. همچنین، ما از نکاتی مانند روزهای خاص یا رویدادهای مهم استفاده می کنیم تا به شما کمک کنیم تا توجه بیشتری به محتوای خود جلب کنید و جامعه خود را بیشتر به خود جذب کنید.</p>
+            <p>تقویم محتوایی ما ابزاری بسیار قدرتمند برای تعیین و برنامه ریزی محتوای شماست. با استفاده از این ابزار، شما می توانید به بهترین شکل ممکن با جامعه خود در ارتباط باشید و پست هایی با ارزش و کیفیتی ارائه دهید.</p>
+            <p>با ورود به وبسایت ما، شما می توانید با چند کلیک ساده و تعیین چند پارامتر، تقویم محتوایی خود را دریافت کنید. همچنین، ما با تیم پشتیبانی خود، همواره آماده پاسخگویی به سوالات شما و حل مشکلات شما هستیم.</p>
+    
+        </div>
+      </div>
+    </div>
+    <!-- Form Box -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card shadow-sm">
+              <div class="card-header bg-white">
+                <h4 class="mb-0">آیا به تقویم محتوایی احتیاج دارید؟</h4>
+              </div>
+              <div class="card-body">
+                <form method="post" action="">
+                  <div class="mb-3">
+                    <label for="category" class="form-label">نوع فعالیت</label>
+                    <select id="category" name="category" class="form-select" required>
+                      <option value="">انتخاب کنید</option>
+                      <option value="خدمات">خدمات</option>
+                      <option value="فروش">فروش</option>
+                      <option value="آموزش">آموزش</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="job" class="form-label">فعالیت</label>
+                    <select id="job" name="job" class="form-select" required disabled>
+                      <option value="">انتخاب کنید</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-check-label" for="exact-match">آی دی اینستاگرام</label><br>
+                    <input type="text" name="ig-username" placeholder="instagram@" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-check-label" for="exact-match">خلاصه فعالیت شما</label><br>
+                    <textarea class="form-control" name="desc" rows="3"></textarea>
+                  </div>
+                  <button type="submit" name="generate_cc" class="btn btn-primary">دریافت تقویم محتوایی</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        const categorySelect = document.getElementById('job');
+        const serviceSelect = document.getElementById('category');
+        let categories = [];
+        serviceSelect.addEventListener('change', () => {
+          categorySelect.innerHTML = '<option value="">انتخاب کنید</option>';
+          if (serviceSelect.value === 'خدمات') {
+            categories = [
+              'زیبایی',
+              'پزشکی',
+              'دکوراسیون',
+              'باشگاه',
+              'تعمیرات',
+              'تعمیرگاه اتومبیل',
+            ];
+          } else if (serviceSelect.value === 'فروش') {
+            categories = [
+              'پوشاک',
+              'مسکن',
+              'آرایشی بهداشتی',
+              'ساختمان',
+              'رستوران',
+              'لوازم خانگی',
+              'دیجیتال',
+              'لوازم تحریر',
+              'کتاب',
+              'مواد اولیه غذایی',
+              'اکسسوری',
+              'طلا و جواهر',
+              'لوازم ورزشی',
+              'سیسمونی',
+              'اسباب بازی',
+              'وسایل نقلیه',
+            ];
+        } else if (serviceSelect.value === 'آموزش') {
+            categories = [
+            'زبان انگلیسی',
+            'عکاسی',
+            'مربی باشگاه',
+            'فن بیان',
+            'فروش و مارکتینگ',
+            'کامپیوتر',
+            'تولید محتوا',
+            'ترید',
+            'مدارس',
+            'هنر های تجسمی',
+            'خیاطی',
+            'گرافیک',
+            'برنامه نویسی',
+            'طراح رابط کاربری',
+            'نوازندگی',
+            'خوانندگی',
+            'بازیگری',
+            'گیمینگ',
+            'آهنگ سازی',
+            'آشپزی',
+            'زیبایی',
+            'فرزند پروری',
+            'روانشناسی',
+            ];
+        }
+        for (const category of categories) {
+            const option = document.createElement('option');
+            option.value = category;
+            option.text = category;
+            categorySelect.appendChild(option);
+        }
+        categorySelect.removeAttribute('disabled');
+    });
+    </script>
+           
+      
+    
+<!-- Footer -->
+<footer class="bg-light py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex justify-content-center">
+          <a href="#">
+            <i class="fab fa-facebook fa-lg me-3"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter fa-lg me-3"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram fa-lg me-3"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col">
+        <p class="text-center mb-0">&copy; 2023 ServiceName. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js" integrity="sha512-3gAVpO5G6Cm5k3fdhc4f5l5ks5y/BfQj3V1qoT4XW6CmZCY+JhUSoOJ/tzjUz7uUIZvV48A89+i2TE1TJtRf2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js" integrity="sha512-mOfFaDg4yc3nkNc/iRuWmqeBhtZbVu8J4k2+snJUJrI4RvAOW66pFt6fmGJiRG8oxgZ5MUy3lB+mSO2zQ+KfBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
