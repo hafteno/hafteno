@@ -1,0 +1,675 @@
+[09-Jun-2023 20:23:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 176
+[09-Jun-2023 20:23:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 176
+[09-Jun-2023 20:24:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 176
+[09-Jun-2023 20:33:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/index.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/index.php on line 137
+[09-Jun-2023 20:35:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/index.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/index.php on line 137
+[09-Jun-2023 20:45:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/index.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/index.php on line 137
+[09-Jun-2023 20:46:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/index.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/index.php on line 137
+[09-Jun-2023 20:47:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/index.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/index.php on line 137
+[09-Jun-2023 20:47:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/index.php:137
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/index.php on line 137
+[09-Jun-2023 20:51:40 Europe/Berlin] PHP Notice:  Array to string conversion in /home/h222937/public_html/index.php on line 148
+[09-Jun-2023 20:53:12 Europe/Berlin] PHP Warning:  include(calendar.html): failed to open stream: No such file or directory in /home/h222937/public_html/index.php on line 102
+[09-Jun-2023 20:53:12 Europe/Berlin] PHP Warning:  include(calendar.html): failed to open stream: No such file or directory in /home/h222937/public_html/index.php on line 102
+[09-Jun-2023 20:53:12 Europe/Berlin] PHP Warning:  include(): Failed opening 'calendar.html' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/index.php on line 102
+[09-Jun-2023 20:59:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 20:59:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 20:59:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:00:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:00:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(103): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:01:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(103): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:01:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(103): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:02:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(103): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:03:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:03:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:03:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:03:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:03:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:03:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:05:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::error() in /home/h222937/public_html/functions.php:68
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 68
+[09-Jun-2023 21:08:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:08:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:09:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:09:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Cannot pass parameter 2 by reference in /home/h222937/public_html/functions.php:56
+Stack trace:
+#0 /home/h222937/public_html/index.php(102): getCalendars()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 56
+[09-Jun-2023 21:10:27 Europe/Berlin] PHP Notice:  Array to string conversion in /home/h222937/public_html/index.php on line 102
+[09-Jun-2023 21:17:50 Europe/Berlin] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/h222937/public_html/index.php on line 104
+[09-Jun-2023 21:19:08 Europe/Berlin] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/h222937/public_html/index.php on line 104
+[09-Jun-2023 21:19:29 Europe/Berlin] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/h222937/public_html/index.php on line 104
+[09-Jun-2023 21:21:13 Europe/Berlin] PHP Notice:  Array to string conversion in /home/h222937/public_html/index.php on line 105
+[09-Jun-2023 21:22:00 Europe/Berlin] PHP Notice:  Undefined variable: json_response in /home/h222937/public_html/index.php on line 123
+[09-Jun-2023 21:22:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 124
+[09-Jun-2023 21:22:04 Europe/Berlin] PHP Notice:  Undefined variable: json_response in /home/h222937/public_html/index.php on line 123
+[09-Jun-2023 21:22:04 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 124
+[09-Jun-2023 21:31:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/h222937/public_html/index.php on line 193
+[09-Jun-2023 21:31:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in /home/h222937/public_html/index.php on line 193
+[09-Jun-2023 21:32:29 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/panel.html:1) in /home/h222937/public_html/index.php on line 190
+[09-Jun-2023 21:34:30 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/panel.html:1) in /home/h222937/public_html/index.php on line 190
+[09-Jun-2023 21:47:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/panel.html:1) in /home/h222937/public_html/index.php on line 191
+[09-Jun-2023 21:47:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/panel.html:1) in /home/h222937/public_html/index.php on line 191
+[09-Jun-2023 22:00:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:78
+Stack trace:
+#0 /home/h222937/public_html/index.php(96): getCredit()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 78
+[09-Jun-2023 22:00:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:78
+Stack trace:
+#0 /home/h222937/public_html/index.php(96): getCredit()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 78
+[09-Jun-2023 22:01:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:78
+Stack trace:
+#0 /home/h222937/public_html/index.php(96): getCredit()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 78
+[09-Jun-2023 22:02:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:78
+Stack trace:
+#0 /home/h222937/public_html/index.php(96): getCredit()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 78
+[09-Jun-2023 22:08:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=' in /home/h222937/public_html/index.php on line 96
+[09-Jun-2023 22:09:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/h222937/public_html/functions.php:78
+Stack trace:
+#0 /home/h222937/public_html/index.php(97): getCredit()
+#1 {main}
+  thrown in /home/h222937/public_html/functions.php on line 78
+[09-Jun-2023 22:34:18 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 215
+[09-Jun-2023 22:37:59 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:38:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 219
+[09-Jun-2023 22:39:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /home/h222937/public_html/index.php on line 3
+[09-Jun-2023 22:39:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in /home/h222937/public_html/index.php on line 3
+[09-Jun-2023 22:40:39 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:99) in /home/h222937/public_html/index.php on line 196
+[09-Jun-2023 22:40:54 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:99) in /home/h222937/public_html/index.php on line 220
+[09-Jun-2023 22:45:35 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:46:22 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:49:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:49:07 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:49:57 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:50:24 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:50:52 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:51:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 22:56:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 23:13:02 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 23:14:31 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 23:14:36 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 195
+[09-Jun-2023 23:17:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:98) in /home/h222937/public_html/index.php on line 219
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:13:58 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:14:01 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 156
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:18:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 158
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:51 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:54 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:29:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:57 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:30:59 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:31:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 151
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:38:56 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 00:41:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 260
+[10-Jun-2023 00:41:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 260
+[10-Jun-2023 00:42:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 260
+[10-Jun-2023 00:42:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/h222937/public_html/index.php on line 260
+[10-Jun-2023 01:14:53 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:100) in /home/h222937/public_html/index.php on line 256
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:00 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Notice:  Undefined index: ideas in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 01:18:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:32 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:21:49 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 153
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:22:44 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 152
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:15 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:35 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:38 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Friday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Monday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Sunday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Tuesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Saturday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Thursday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:23:58 Europe/Berlin] PHP Notice:  Undefined index: Wednesday in /home/h222937/public_html/index.php on line 141
+[10-Jun-2023 02:42:36 Europe/Berlin] PHP Notice:  Undefined variable: id in /home/h222937/public_html/index.php on line 132
+[10-Jun-2023 02:42:36 Europe/Berlin] PHP Notice:  Undefined variable: id in /home/h222937/public_html/index.php on line 132
+[10-Jun-2023 02:42:36 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 138
+[10-Jun-2023 02:42:36 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 138
+[10-Jun-2023 02:43:14 Europe/Berlin] PHP Notice:  Undefined variable: id in /home/h222937/public_html/index.php on line 132
+[10-Jun-2023 02:43:14 Europe/Berlin] PHP Notice:  Undefined variable: id in /home/h222937/public_html/index.php on line 132
+[10-Jun-2023 02:43:14 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 138
+[10-Jun-2023 02:43:14 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 138
+[10-Jun-2023 02:43:28 Europe/Berlin] PHP Notice:  Undefined variable: id in /home/h222937/public_html/index.php on line 132
+[10-Jun-2023 02:43:28 Europe/Berlin] PHP Notice:  Undefined variable: id in /home/h222937/public_html/index.php on line 132
+[10-Jun-2023 02:43:28 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 138
+[10-Jun-2023 02:43:28 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 138
+[10-Jun-2023 02:43:57 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 135
+[10-Jun-2023 02:43:57 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 135
+[10-Jun-2023 02:45:05 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 135
+[10-Jun-2023 02:45:05 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 135
+[10-Jun-2023 02:46:01 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:46:01 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:46:37 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:46:37 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:47:39 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:47:39 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:48:41 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:48:41 Europe/Berlin] PHP Notice:  Undefined variable: subdomain in /home/h222937/public_html/index.php on line 139
+[10-Jun-2023 02:48:41 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:48:41 Europe/Berlin] PHP Notice:  Undefined variable: subdomain in /home/h222937/public_html/index.php on line 139
+[10-Jun-2023 02:49:05 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:49:05 Europe/Berlin] PHP Notice:  Undefined variable: subdomain in /home/h222937/public_html/index.php on line 139
+[10-Jun-2023 02:49:05 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:49:05 Europe/Berlin] PHP Notice:  Undefined variable: subdomain in /home/h222937/public_html/index.php on line 139
+[10-Jun-2023 02:49:06 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[10-Jun-2023 02:49:06 Europe/Berlin] PHP Notice:  Undefined index: subdomain in /home/h222937/public_html/index.php on line 137
+[12-Jun-2023 09:04:37 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$choices in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:04:37 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:04:37 Europe/Berlin] PHP Notice:  Trying to get property 'message' of non-object in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:04:37 Europe/Berlin] PHP Notice:  Trying to get property 'content' of non-object in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:04:37 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:102) in /home/h222937/public_html/index.php on line 253
+[12-Jun-2023 09:07:23 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$choices in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:07:23 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:07:23 Europe/Berlin] PHP Notice:  Trying to get property 'message' of non-object in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:07:23 Europe/Berlin] PHP Notice:  Trying to get property 'content' of non-object in /home/h222937/public_html/functions.php on line 49
+[12-Jun-2023 09:07:23 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:102) in /home/h222937/public_html/index.php on line 253
+[14-Jun-2023 20:35:10 Europe/Berlin] PHP Notice:  Undefined index: id in /home/h222937/public_html/functions.php on line 76
+[14-Jun-2023 20:35:10 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/h222937/public_html/functions.php on line 85
+[16-Jun-2023 17:59:10 Europe/Berlin] PHP Notice:  Trying to get property 'choices' of non-object in /home/h222937/public_html/functions.php on line 49
+[16-Jun-2023 17:59:10 Europe/Berlin] PHP Notice:  Trying to access array offset on value of type null in /home/h222937/public_html/functions.php on line 49
+[16-Jun-2023 17:59:10 Europe/Berlin] PHP Notice:  Trying to get property 'message' of non-object in /home/h222937/public_html/functions.php on line 49
+[16-Jun-2023 17:59:10 Europe/Berlin] PHP Notice:  Trying to get property 'content' of non-object in /home/h222937/public_html/functions.php on line 49
+[16-Jun-2023 17:59:10 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/h222937/public_html/index.php:102) in /home/h222937/public_html/index.php on line 253

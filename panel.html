@@ -14,23 +14,30 @@
   </head>
   <body dir="rtl" class="bg-light">
    <!-- Header -->
-    <header class="bg-dark py-3">
-      <div class="container">
+    <header  id="header" class="bg-dark py-3">
+    <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-2 text-center">
-            
-          </div>
-          <div class="col-md-8 text-center">
-            <img src="/img/logo2.png" style="width:60px;" alt="Your Service Name" />
-          </div>
-          <div class="col-md-2 text-center">
+            <div class="col-md-1">
+                <img src="/img/logo2.png" style="width:60px;" alt="Your Service Name" />
+            </div>
+            <div class="col-md-9">
+                
+                <a style="color:#fff;padding-left:20px;text-decoration:none;" href="?p=panel">پیشخوان</a>
+                <a style="color:#aaa;padding-left:20px;text-decoration:none;" href="?p=calendar">تقویم های من</a>
+                <a style="color:#aaa;padding-left:20px;text-decoration:none;" href="?p=wallet">کیف پول</a>
+                <a style="color:#aaa;padding-left:20px;text-decoration:none;" href="?p=wallet">پشتیبانی</a>
+            </div>
+          <div class="col-md-2 align-items-end">
+              <!--###credit###-->
             <a href="?p=logout"><button class="btn btn-light">خروج</button></a>
+          
           </div>
         </div>
-      </div>
+        </div>
     </header>
 
     <!-- Info -->
+    <!--###error_credit###-->
     <div class="container mt-5">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -43,7 +50,8 @@
       </div>
     </div>
     <!-- Form Box -->
-    <div class="container my-5">
+    <div id="create_form" class="container my-5">
+               
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="card shadow-sm">
@@ -76,6 +84,9 @@
                     <textarea class="form-control" name="desc" rows="3"></textarea>
                   </div>
                   <button type="submit" name="generate_cc" class="btn btn-primary">دریافت تقویم محتوایی</button>
+                   <span style="margin:0 auto;margin:0px 20px 0px 20px;">
+                    تعرفه ی تولید هر تقویم محتوایی برای مدت یک هفته <b>۲۰,۰۰۰</b> تومان می باشد
+                    </span>
                 </form>
               </div>
             </div>
@@ -184,5 +195,6 @@
 <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js" integrity="sha512-3gAVpO5G6Cm5k3fdhc4f5l5ks5y/BfQj3V1qoT4XW6CmZCY+JhUSoOJ/tzjUz7uUIZvV48A89+i2TE1TJtRf2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js" integrity="sha512-mOfFaDg4yc3nkNc/iRuWmqeBhtZbVu8J4k2+snJUJrI4RvAOW66pFt6fmGJiRG8oxgZ5MUy3lB+mSO2zQ+KfBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </body>
 </html>

@@ -21,7 +21,7 @@
         // if a user is found, set the email as a session variable and return true
         if ($result->num_rows > 0) {
           $row = $result->fetch_assoc();
-          $_SESSION['email'] = $row['email'];
+          $_SESSION['id'] = $row['id'];
           return true;
         }
       
@@ -47,6 +47,43 @@
         curl_close($ch);
         $jresponse = json_decode($response);
         return ($jresponse->choices[0]->message->content);
-    }    
+    }  
+function getCalendars() {
+    include 'conn.php'; // assuming this file establishes a database connection
+
+    // prepare and execute a SELECT statement to find a user with the given email and password
+    $stmt = $conn->prepare("SELECT * FROM weekcalendar WHERE user_id = ?");
+    $user_id = $_SESSION['id']; // or assign the appropriate user ID here
+    $stmt->bind_param("i", $user_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    // if rows are found, store them in an array and return it
+    if ($result->num_rows > 0) {
+        $rows = array(); // Create an empty array to store the rows
+        while ($row = $result->fetch_assoc()) {
+            $rows[] = $row; // Add each row to the array
+        }
+        return $rows; // Return the array of rows
+    }
+
+    return $result;
+}
+function getCredit() {
+    include 'conn.php'; // assuming this file establishes a database connection
+
+    $stmt = $conn->prepare("SELECT * FROM user WHERE id = ?");
+    $user_id = $_SESSION['id']; // or assign the appropriate user ID here
+    $stmt->bind_param("i", $user_id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    
+    // fetch the first row if it exists
+    $row = $result->fetch_assoc();
+    
+    // return the row
+    return $row['credit'];
+}
+
       
 ?>
