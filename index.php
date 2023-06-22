@@ -26,7 +26,7 @@ echo '<!DOCTYPE html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </head>
   <body id="body" dir="rtl" class="bg-light">
-  
+
     ';
 if(isset($_GET['p']) && $_GET['p'] == 'register'){
     if(!isset($_SESSION['id'])){
@@ -114,7 +114,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'calendar'){
         <div class="row align-items-center">
             <div class="col-md-10">
                 <img src="/img/logo2.png" style="width:60px;margin:10px;" alt="Your Service Name" />
-                
+
                 <a style="color:#aaa;padding-left:20px;text-decoration:none;" href="?p=panel">پیشخوان</a>
                 <a style="color:#fff;padding-left:20px;text-decoration:none;" href="?p=calendar">تقویم های من</a>
                 <a style="color:#aaa;padding-left:20px;text-decoration:none;" href="?p=wallet">کیف پول</a>
@@ -143,7 +143,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'calendar'){
                                 '.$title.' '.$subtitle.'
                         </button>
                     </div>
-                
+
                 ';
         }
         echo '</div></div>';
@@ -222,38 +222,38 @@ if(isset($_POST['generate_cc'])){
         $category = $_POST['category'];
         $job = $_POST['job'];
         $desc = $_POST['desc'];
-        
+
         $new_credit = ($credit - 20000);
         $stmt = $conn->prepare("UPDATE user SET credit = ? WHERE id=?");
-        
+
         // Bind parameters to the statement
         $stmt->bind_param("ii", $new_credit,$_SESSION['id']);
-        
-        
+
+
         // Execute the statement
         if ($stmt->execute()) {
             $json_response = requestChatGPT('[no prose]\n[only json output]\nبه عنوان یک متخصص شبکه اجتمایی اینستاکرام برای این صفحه یک تقویم محتوایی برای پست و استوری یک هقته ای بنویس گه این پست ها وایرال شوند تا حدود ۱ میلیون بازدید\nاین صفحه در زمینه '.$category.' با فعالیت بصورت تخصصی در زمینه '.$job.' میباشد\nخلاصه فعالیت ما:\n'.$desc.'\nresponse it in persian in json format without any text before and after json object\nbegin on Saturday\nthe object has weekday in english,ideas(array) ');
-            
+
             $stmt2 = $conn->prepare("INSERT INTO weekcalendar (user_id, title, subtitle, description, data) VALUES (?, ?, ?, ?, ?)");
-            
+
             // Bind parameters to the statement
             $stmt2->bind_param("issss", $user_id, $title, $subtitle, $description, $data);
-            
+
             // Set the values for each parameter
             $user_id = $_SESSION['id'];
             $title = $category;
             $subtitle = $job;
             $description = $desc;
             $data = $json_response;
-            
+
             // Execute the statement
             if ($stmt2->execute()) {
-                
+
             } else {
                 header('location: ?error=1');
             }
         }
-        
+
         $stmt->close();
         $conn->close();
     }
