@@ -83,7 +83,7 @@
 body {
   margin: 0;
   overflow-x:clip;
-  font-family: 'Noto Sans Arabic';
+  font-family: 'Noto Sans Arabic','Quicksand';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -9300,7 +9300,10 @@ img {
 
 .vw-100 {
   height: 100vw; }
-
+.insta_id {
+    font-family: 'Quicksand';
+    font-size: 15pt;
+  }
 @media (min-width: 1200px) {
   .border-xl-0 {
     border-top: none !important;
