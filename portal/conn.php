@@ -1,8 +1,8 @@
 <?php
 $dbhost = 'localhost';
-$dbusername = 'root';
-$dbpassword = 'root';
-$dbname = 'ccsahar';
+$dbusername = 'project';
+$dbpassword = '70127074';
+$dbname = 'hafteno';
 
 // Create a connection
 $conn = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);
