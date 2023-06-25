@@ -1,7 +1,7 @@
 <?php
 $dbhost = 'localhost';
-$dbusername = 'project';
-$dbpassword = '70127074';
+$dbusername = 'root';
+$dbpassword = 'root';
 $dbname = 'hafteno';
 
 // Create a connection
