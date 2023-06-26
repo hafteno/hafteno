@@ -9304,6 +9304,9 @@ img {
     font-family: 'Quicksand';
     font-size: 15pt;
   }
+.ignore-margin{
+  margin-top:9vh;
+}
 @media (min-width: 1200px) {
   .border-xl-0 {
     border-top: none !important;
