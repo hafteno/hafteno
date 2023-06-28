@@ -98,7 +98,8 @@ if(isset($_GET['p']) && $_GET['p'] == 'panel'){
     if(isset($_SESSION['id'])){
         $panel = file_get_contents('panel.html');
         $panel =  str_replace("<!--###credit###-->"," <a href='?p=wallet
-        '><button class='btn btn-light'>".getCredit()." تومان</button></a>",$panel);
+        '><button class='btn btn-light'>".getCredit()." تومان</button></a> ",$panel);
+        $panel =  str_replace("<!--###name###-->",getName(),$panel);
         echo $panel;
     }
     else{
@@ -192,7 +193,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'wallet'){
 }
 if(isset($_GET['p']) && $_GET['p'] == 'logout'){
     logout();
-    header('Location: ?p=login');
+    header('Location: ../system.html');
 }
 if(isset($_POST['register_button'])){
     $email = $_POST['email'];
@@ -217,7 +218,7 @@ if(isset($_POST['login_button'])){
 }
 if(isset($_POST['generate_cc'])){
     $credit = getCredit();
-    if($credit > 20000){
+    if($credit > 25000){
         include 'conn.php';
         $category = $_POST['category'];
         $job = $_POST['job'];
@@ -248,7 +249,7 @@ if(isset($_POST['generate_cc'])){
 
             // Execute the statement
             if ($stmt2->execute()) {
-
+                // header('location: ?p=calendar');
             } else {
                 header('location: ?error=1');
             }
