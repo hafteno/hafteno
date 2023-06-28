@@ -2,7 +2,7 @@
 $dbhost = 'localhost';
 $dbusername = 'root';
 $dbpassword = 'root';
-$dbname = 'hafteno';
+$dbname = 'ccsahar';
 
 // Create a connection
 $conn = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbname);
