@@ -91,7 +91,8 @@ if(isset($_POST['generate_cc'])){
 
         // Execute the statement
         if ($stmt->execute()) {
-            $json_response = requestChatGPT('[no prose]\n[only json output]\nبه عنوان یک متخصص شبکه اجتمایی اینستاکرام برای این صفحه یک تقویم محتوایی برای پست و استوری یک هقته ای بنویس گه این پست ها وایرال شوند تا حدود ۱ میلیون بازدید\nاین صفحه در زمینه '.$category.' با فعالیت بصورت تخصصی در زمینه '.$job.' میباشد\nخلاصه فعالیت ما:\n'.$desc.'\nresponse it in persian in json format without any text before and after json object\nbegin on Saturday\nthe object has weekday in english,ideas(array) ');
+            $json_response = requestChatGPT('[no prose][only json output][{day in english:{ideas:[array of ideas in persian]}}]به عنوان یک متخصص شبکه اجتمایی اینستاکرام برای این صفحه یک تقویم محتوایی برای پست و استوری یک هفته ای بنویس که این پست ها وایرال شوند تا حدود ۱ میلیون بازدیداین صفحه در زمینه '.$category.' با فعالیت بصورت تخصصی در زمینه '.$job.' میباشدخلاصه فعالیت ما:'.$desc);
+            echo $json_response;
 
             $stmt2 = $conn->prepare("INSERT INTO weekcalendar (user_id, title, subtitle, description, data) VALUES (?, ?, ?, ?, ?)");
 
@@ -115,9 +116,9 @@ if(isset($_POST['generate_cc'])){
 
         $stmt->close();
         $conn->close();
-        echo '<script type="text/javascript">';
-        echo 'window.location.href = "?p=calendar";';
-        echo '</script>';
+        // echo '<script type="text/javascript">';
+        // echo 'window.location.href = "?p=calendar";';
+        // echo '</script>';
         
         
 
