@@ -168,75 +168,44 @@
               <path
                 d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z" />
             </svg>
-            <span class="ms-md-1 mt-1 fw-bolder me-md-5">Klar</span>
+            <span class="ms-md-1 mt-1 fw-bolder me-md-5">هفته نو</span>
           </a>
 
         </div>
         <div class="col border-end border-dark">
-          <span class="h6">Company</span>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">About us</a>
+              <a href="#about-body" class="link-fancy link-fancy-light">درباره ما</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Legal</a>
+              <a href="rules.html" class="link-fancy link-fancy-light">قوانین و مقررات</a>
             </li>
 
+            <!-- <li class="nav-item">
+              <a href="#" class="link-fancy link-fancy-light">استخدام</a>
+            </li> -->
             <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Career</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Contact</a>
+              <a href="contactus.html" class="link-fancy link-fancy-light">تماس با ما</a>
             </li>
           </ul>
         </div>
         <div class="col border-end border-dark">
-          <span class="h6">Services</span>
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Pricing</a>
+              <a href="#price-body" class="link-fancy link-fancy-light">قیمت گذاری</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Products</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Customers</a>
+              <a href="#products-body" class="link-fancy link-fancy-light">محصولات</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Success Stories</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">More</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col">
-          <span class="h6">Support</span>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">About us</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Legal</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Career</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="link-fancy link-fancy-light">Contact</a>
+              <a href="#customers-body" class="link-fancy link-fancy-light">مشتریان</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="container text-center small py-vh-2 border-top border-dark">Made by
-      <a href="https://templatedeck.com" class="link-fancy link-fancy-light" target="_blank">templatedeck.com</a>
-      Distributed by <a href="https://themewagon.com" class="link-fancy link-fancy-light" target="_blank">ThemeWagon</a>
+    <div class="container text-center small py-vh-2 border-top border-dark">طراحی شده توسط تیم
+      <a href="https://hafteno.ir" class="link-fancy link-fancy-light" target="_blank">هفته نو</a>
     </div>
   </footer>
 
