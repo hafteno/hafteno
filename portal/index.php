@@ -55,11 +55,11 @@ if(isset($_GET['p']) && $_GET['p'] == 'panel'){
         $panel =  str_replace("<!--###credit###-->"," <a href='?p=wallet
         '><button class='btn btn-light'>".getCredit()." تومان</button></a> ",$panel);
         $panel =  str_replace("<!--###name###-->",getName(),$panel);
-        echo $panel;
     }
     else{
         header('Location: ?p=login');
     }
+    $credit = getCredit();
     if($credit <= 25000){
         $panel =  str_replace('<!--###credit_error###-->','<div class="container mt-5">
         <div class="row justify-content-center">
@@ -72,6 +72,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'panel'){
         </div>
       </div>',$panel);
     }
+    echo $panel;
 }
 
 if(isset($_POST['generate_cc'])){
@@ -92,7 +93,6 @@ if(isset($_POST['generate_cc'])){
         // Execute the statement
         if ($stmt->execute()) {
             $json_response = requestChatGPT('[no prose][only json output][{day in english:{ideas:[array of ideas in persian]}}]به عنوان یک متخصص شبکه اجتمایی اینستاکرام برای این صفحه یک تقویم محتوایی برای پست و استوری یک هفته ای بنویس که این پست ها وایرال شوند تا حدود ۱ میلیون بازدیداین صفحه در زمینه '.$category.' با فعالیت بصورت تخصصی در زمینه '.$job.' میباشدخلاصه فعالیت ما:'.$desc);
-            echo $json_response;
 
             $stmt2 = $conn->prepare("INSERT INTO weekcalendar (user_id, title, subtitle, description, data) VALUES (?, ?, ?, ?, ?)");
 
@@ -116,9 +116,9 @@ if(isset($_POST['generate_cc'])){
 
         $stmt->close();
         $conn->close();
-        // echo '<script type="text/javascript">';
-        // echo 'window.location.href = "?p=calendar";';
-        // echo '</script>';
+        echo '<script type="text/javascript">';
+        echo 'window.location.href = "?p=calendar";';
+        echo '</script>';
         
         
 
@@ -127,7 +127,12 @@ if(isset($_POST['generate_cc'])){
 
 if(!isset($_GET['p'])) {
     if(isset($_SESSION['id'])){
+      if($_SESSION['isAdmin']){
+        header('Location: ../admin');
+      }
+      else{
         header('location: ?p=panel');
+      }
     }
     else{
         header('location: ?p=login');
@@ -312,6 +317,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'logout'){
 if(isset($_POST['register_button'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $password = md5($password);
     $fullname = $_POST['fullname'];
     $credit = 0;
 
@@ -324,15 +330,20 @@ if(isset($_POST['register_button'])){
 if(isset($_POST['login_button'])){
     $email = $_POST['email'];
     $password = $_POST['password'];
-
+    $password = md5($password);
     $result = login($email, $password);
     if($result){
-        header('Location: ?p=panel');
+      if($_SESSION['isAdmin']){
+        header('Location: ../admin');
+      }
+      else{
+        header('location: ?p=panel');
+      }
     }
 }
 echo '<footer>
 <a href="https://wa.me/4915774239103"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" style="width:50px;position: fixed;bottom: 20px;right: 20px;"></a>
-</footer></div>
-
-</body></html>';
+</footer></div>';
+echo $_SESSION['isAdmin'];
+echo '</body></html>';
 ?>

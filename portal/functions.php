@@ -22,6 +22,12 @@
         if ($result->num_rows > 0) {
           $row = $result->fetch_assoc();
           $_SESSION['id'] = $row['id'];
+          if($row['is_admin'] == 1){
+            $_SESSION['isAdmin'] = true;
+          }
+          else{
+            $_SESSION['isAdmin'] = false;
+          }
           return true;
         }
       
