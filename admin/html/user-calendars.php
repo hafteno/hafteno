@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!$_SESSION['isAdmin']){
+  header('Location: ../../system.html');
+}
+?>
 <!DOCTYPE html>
 
 <html
