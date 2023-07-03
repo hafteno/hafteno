@@ -52,9 +52,9 @@
       <div class="col-md-8 bg-light p-4">
         <div>
           <h4>افزایش موجودی حساب</h4>
-          <form>
+          <form method="POST" action="get_payment_url.php">
             <div class="mb-3">
-              <input type="number" class="form-control" id="amount" placeholder="مبلغ به تومان">
+              <input type="number" name="amount" class="form-control" required id="amount" placeholder="مبلغ به تومان">
             </div>
             <button type="submit" class="btn btn-primary">پرداخت</button>
           </form>
