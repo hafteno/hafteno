@@ -1,5 +1,4 @@
 <?php
-    session_start();
     if(isset($_POST['tracking_code']) && $_POST['Status'] == 3){
         $tracking_code = $_POST['tracking_code'];
 
@@ -21,9 +20,9 @@
         curl_close($ch);
         if ($status_code == 200) {
             $result = json_decode($response);
-
+            $amount = $result->Amount;
             if($result->status == 1){
-                header('location:https://hafteno.ir/portal/index.php?p=wallet&success=1');
+                header('location:https://hafteno.ir/portal/bank_add_amount.php?amount='.$amount);
             }
         } else {
             echo 'Unexpected HTTP status: ' . $status_code;
