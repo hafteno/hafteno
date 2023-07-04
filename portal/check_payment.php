@@ -1,12 +1,12 @@
 <?php
     if(isset($_POST['tracking_code']) && $_POST['Status'] == 3){
         $tracking_code = $_POST['tracking_code'];
-
+        $transaction_code = $_POST['RefNum'];
         $ch = curl_init();
 
         curl_setopt($ch, CURLOPT_URL, 'https://mellipay.ir/api/v1/payment/verify/');
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, '{"TransactionId": 1, "Mellipay_Tracking_Code": "'.$tracking_code.'"}');
+        curl_setopt($ch, CURLOPT_POSTFIELDS, '{"TransactionId": '.$transaction_code.', "Mellipay_Tracking_Code": "'.$tracking_code.'"}');
         curl_setopt($ch, CURLOPT_HTTPHEADER, array(
             'M-Api-Key: cezB9v1wUARzUBE0L8',
             'M-Sec-Key: ZY6L1scy1op1wOE8od5R',

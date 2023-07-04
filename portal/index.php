@@ -119,8 +119,8 @@ if(isset($_POST['generate_cc'])){
         echo '<script type="text/javascript">';
         echo 'window.location.href = "?p=calendar";';
         echo '</script>';
-        
-        
+
+
 
     }
 }
@@ -304,8 +304,10 @@ if(isset($_GET['p']) && $_GET['p'] == 'calendar'){
 }
 if(isset($_GET['p']) && $_GET['p'] == 'wallet'){
     if(isset($_SESSION['id'])){
+        $id = $_SESSION['id'];
         $wallet = file_get_contents('wallet.html');
         $wallet =  str_replace("<!--###credit###-->","<b class='h3'>".getCredit()."</b> تومان",$wallet);
+        $wallet =  str_replace("###user_id###",$id,$wallet);
         echo $wallet;
     }
 }
