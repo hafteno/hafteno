@@ -1,5 +1,4 @@
 <?php
-session_start();
 if(isset($_POST['amount'])){
     $ch = curl_init();
     $url = 'https://mellipay.ir/api/v1/payment/';
