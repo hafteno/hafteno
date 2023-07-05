@@ -3,7 +3,7 @@ if(isset($_POST['amount'])){
     $ch = curl_init();
     $url = 'https://mellipay.ir/api/v1/payment/';
     $amount = $_POST['amount'];
-    $transaction_code = $_SESSION['user_id'];
+    $transaction_code = $_POST['user_id'];
     $headers = array(
         'M-Api-Key: cezB9v1wUARzUBE0L8',
         'M-Sec-Key: ZY6L1scy1op1wOE8od5R',
