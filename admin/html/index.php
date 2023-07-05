@@ -592,9 +592,9 @@ if(!$_SESSION['isAdmin']){
           <div class="content-wrapper">
             <!-- Content -->
 
-            <div class="container-xxl flex-grow-1 container-p-y">
+            <div dir="rtl" class="container-xxl flex-grow-1 container-p-y">
               <div class="row">
-                <div class="col-lg-4 col-md-4 order-1">
+                <div class="col-lg-6 col-md-4 order-1">
                   <div class="row">
                     <div class="col-lg-6 col-md-12 col-6 mb-4">
                       <div class="card">
@@ -666,7 +666,7 @@ if(!$_SESSION['isAdmin']){
                 </div>
                 <!-- Total Revenue -->
                                <!--/ Total Revenue -->
-                <div class="col-12 col-md-8 col-lg-4 order-3 order-md-2">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-6  order-3 order-md-2">
                   <div class="row">
                     <div class="col-6 mb-4">
                       <div class="card">
@@ -736,7 +736,7 @@ if(!$_SESSION['isAdmin']){
               </div>
               <div class="row">
                 <!-- Order Statistics -->
-                <div class="col-md-6 col-lg-4 col-xl-4 order-0 mb-4">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-6 order-0 mb-4">
                   <div class="card h-100">
                     <div class="card-header d-flex align-items-center justify-content-between pb-0">
                       <div class="card-title mb-0">
@@ -837,13 +837,13 @@ if(!$_SESSION['isAdmin']){
                 <!--/ Order Statistics -->
 
                 <!-- Expense Overview -->
-                
-                    
+
+
                 <!--/ Expense Overview -->
-                
+
 
                 <!-- Transactions -->
-                <div class="col-md-6 col-lg-4 order-2 mb-4">
+                <div class="col-md-8 col-lg-6 order-2 mb-4">
                   <div class="card h-100">
                     <div class="card-header d-flex align-items-center justify-content-between">
                       <h5 class="card-title m-0 me-2">Transactions</h5>
@@ -970,10 +970,10 @@ if(!$_SESSION['isAdmin']){
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                 
-                  
+
+
                   هفته نو
-                  
+
                 </div>
                 <div>
                   <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
@@ -1009,7 +1009,7 @@ if(!$_SESSION['isAdmin']){
     </div>
     <!-- / Layout wrapper -->
 
-    
+
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->

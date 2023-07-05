@@ -141,7 +141,7 @@ if(!$_SESSION['isAdmin']){
               </a>
             </li>
 
-            
+
             <!-- لیست کاربران -->
             <li class="menu-item active">
               <a href="user-list.html" class="menu-link">
@@ -512,7 +512,7 @@ if(!$_SESSION['isAdmin']){
               <!-- /Search -->
 
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-                
+
 
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
@@ -552,7 +552,7 @@ if(!$_SESSION['isAdmin']){
                         <span class="align-middle">تنظیمات</span>
                       </a>
                     </li>
-                    
+
                     <li>
                       <div class="dropdown-divider"></div>
                     </li>
@@ -573,7 +573,7 @@ if(!$_SESSION['isAdmin']){
 
           <!-- Content wrapper -->
           <div class="content-wrapper">
-           
+
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
@@ -593,30 +593,41 @@ if(!$_SESSION['isAdmin']){
                     </tr>
                   </thead>
                   <tbody class="">
-                    <tr>
-                      <td>شقایق</td>
-                      <td>gpowershaghayegh@gmail.com</td>
-                      <td>e10adc3949ba59abbe56e057f20f883e</td>
-                      <td>490000</td>
-                      <td class="active-account">فعال</td>
-                      <td>20</td>
-                    </tr>
-                    <tr>
-                      <td>سحر</td>
-                      <td>saharkhanyab99@gmail.com</td>
-                      <td>e10adc3949ba59abbe56e057f20f883e</td>
-                      <td>230000</td>
-                      <td class="active-account">فعال</td>
-                      <td>15</td>
-                    </tr>
-                    <tr>
-                      <td>فردوس</td>
-                      <td>f.soran98@gmail.com</td>
-                      <td>e10adc3949ba59abbe56e057f20f883e</td>
-                      <td>890000</td>
-                      <td class="active-account">فعال</td>
-                      <td>12</td>
-                    </tr>
+                    <?php
+                    include '../../portal/conn.php';
+
+                    // query to retrieve fullname column for all users
+                    $sql = "SELECT * FROM user";
+
+                    $result = $conn->query($sql);
+
+                    // check if a row was returned
+                    if ($result->num_rows > 0) {
+                        $rows = array();
+
+                        // fetch the rows and extract the fullname value
+                        while ($row = $result->fetch_assoc()) {
+                            $users[] = ['fullname' => $row['fullname'] , 'email' => $row['email'] , 'password' => $row['password'] , 'credit' => $row['credit'] , ];
+                        }
+                      }
+                    // close the database connection
+                    $conn->close();
+
+                    foreach ($users as $user){
+                      echo '
+                        <tr>
+                          <td>'.$user['fullname'].'</td>
+                          <td>'.$user['email'].'</td>
+                          <td>'.$user['password'].'</td>
+                          <td>'.$user['credit'].'</td>
+                          <td class="active-account">فعال</td>
+                          <td>0</td>
+                        </tr>
+
+                      ';
+                    }
+
+                    ?>
 
                   </tbody>
                 </table>
@@ -629,9 +640,9 @@ if(!$_SESSION['isAdmin']){
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                  
+
                   هفته نو
-                  
+
                 </div>
                 <div>
                   <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
@@ -667,7 +678,7 @@ if(!$_SESSION['isAdmin']){
     </div>
     <!-- / Layout wrapper -->
 
-    
+
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
