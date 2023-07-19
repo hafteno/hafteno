@@ -345,18 +345,6 @@ if(isset($_POST['login_button'])){
 }
 echo '<footer>
 <a href="https://wa.me/4915774239103"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" style="width:50px;position: fixed;bottom: 20px;right: 20px;"></a>
-<<<<<<< HEAD
-</footer></div>';
-echo $_SESSION['isAdmin'];
-echo '</body></html>';
-=======
-<<<<<<< Updated upstream
-</footer></div>
-
-</body></html>';
-=======
 </footer></div>';
 echo '</body></html>';
->>>>>>> Stashed changes
->>>>>>> homepage
 ?>
