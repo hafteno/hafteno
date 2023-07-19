@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!$_SESSION['isAdmin']){
+  header('Location: ../../system.html');
+}
+?>
 <!DOCTYPE html>
 
 <html
@@ -40,6 +46,7 @@
 
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;600;900&family=Quicksand&display=swap" rel="stylesheet">
 
     <!-- Page CSS -->
 
@@ -51,7 +58,7 @@
     <script src="../assets/js/config.js"></script>
   </head>
 
-  <body>
+  <body style="font-family: 'Noto Sans Arabic','Quicksand';">
     <!-- Layout wrapper -->
     <div class="layout-wrapper layout-content-navbar">
       <div class="layout-container">
@@ -115,7 +122,7 @@
                   </g>
                 </svg>
               </span>
-              <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
+              <span class="app-brand-text demo menu-text fw-bolder ms-2">هفته نو</span>
             </a>
 
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -130,21 +137,37 @@
             <li class="menu-item">
               <a href="index.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div data-i18n="Analytics">Dashboard</div>
+                <div data-i18n="Analytics">پیشخوان</div>
               </a>
             </li>
 
-            
+
             <!-- لیست کاربران -->
             <li class="menu-item active">
-              <a href="index.html" class="menu-link">
+              <a href="user-list.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">لیست کاربران</div>
               </a>
             </li>
 
-            <!-- Layouts -->
+            <!-- تقویم کاربر -->
             <li class="menu-item">
+              <a href="user-calendars.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Analytics">تقویم های کاربر</div>
+              </a>
+            </li>
+
+            <!-- صورت حساب کاربر -->
+            <li class="menu-item">
+              <a href="user-invoice.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div data-i18n="Analytics">صورت حساب کاربر</div>
+              </a>
+            </li>
+
+            <!-- Layouts -->
+            <!-- <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-layout"></i>
                 <div data-i18n="Layouts">Layouts</div>
@@ -245,18 +268,18 @@
                   </a>
                 </li>
               </ul>
-            </li>
+            </li>-->
             <!-- Components -->
-            <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li>
+            <!-- <li class="menu-header small text-uppercase"><span class="menu-header-text">Components</span></li> -->
             <!-- Cards -->
-            <li class="menu-item">
+            <!-- <li class="menu-item">
               <a href="cards-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div data-i18n="Basic">Cards</div>
               </a>
-            </li>
+            </li> -->
             <!-- User interface -->
-            <li class="menu-item">
+            <!-- <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-box"></i>
                 <div data-i18n="User interface">User interface</div>
@@ -358,10 +381,10 @@
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> -->
 
             <!-- Extended components -->
-            <li class="menu-item">
+            <!-- <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-copy"></i>
                 <div data-i18n="Extended UI">Extended UI</div>
@@ -385,12 +408,12 @@
                 <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Boxicons">Boxicons</div>
               </a>
-            </li>
+            </li> -->
 
             <!-- Forms & Tables -->
-            <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li>
+            <!-- <li class="menu-header small text-uppercase"><span class="menu-header-text">Forms &amp; Tables</span></li> -->
             <!-- Forms -->
-            <li class="menu-item">
+            <!-- <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-detail"></i>
                 <div data-i18n="Form Elements">Form Elements</div>
@@ -425,16 +448,16 @@
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <!-- Tables -->
-            <li class="menu-item">
+            <!-- <li class="menu-item">
               <a href="tables-basic.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-table"></i>
                 <div data-i18n="Tables">Tables</div>
               </a>
-            </li>
+            </li> -->
             <!-- Misc -->
-            <li class="menu-header small text-uppercase"><span class="menu-header-text">Misc</span></li>
+            <!-- <li class="menu-header small text-uppercase"><span class="menu-header-text">Misc</span></li>
             <li class="menu-item">
               <a
                 href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
@@ -454,7 +477,7 @@
                 <i class="menu-icon tf-icons bx bx-file"></i>
                 <div data-i18n="Documentation">Documentation</div>
               </a>
-            </li>
+            </li> -->
           </ul>
         </aside>
         <!-- / Menu -->
@@ -481,26 +504,15 @@
                   <input
                     type="text"
                     class="form-control border-0 shadow-none"
-                    placeholder="Search..."
-                    aria-label="Search..."
+                    placeholder="جستجو..."
+                    aria-label="جستجو..."
                   />
                 </div>
               </div>
               <!-- /Search -->
 
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-                <!-- Place this tag where you want the button to render. -->
-                <li class="nav-item lh-1 me-3">
-                  <a
-                    class="github-button"
-                    href="https://github.com/themeselection/sneat-html-admin-template-free"
-                    data-icon="octicon-star"
-                    data-size="large"
-                    data-show-count="true"
-                    aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
-                    >Star</a
-                  >
-                </li>
+
 
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
@@ -519,7 +531,7 @@
                             </div>
                           </div>
                           <div class="flex-grow-1">
-                            <span class="fw-semibold d-block">John Doe</span>
+                            <span class="fw-semibold d-block">Json Dev</span>
                             <small class="text-muted">Admin</small>
                           </div>
                         </div>
@@ -531,31 +543,23 @@
                     <li>
                       <a class="dropdown-item" href="#">
                         <i class="bx bx-user me-2"></i>
-                        <span class="align-middle">My Profile</span>
+                        <span class="align-middle">پروفایل من</span>
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">
                         <i class="bx bx-cog me-2"></i>
-                        <span class="align-middle">Settings</span>
+                        <span class="align-middle">تنظیمات</span>
                       </a>
                     </li>
-                    <li>
-                      <a class="dropdown-item" href="#">
-                        <span class="d-flex align-items-center align-middle">
-                          <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
-                          <span class="flex-grow-1 align-middle">Billing</span>
-                          <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
-                        </span>
-                      </a>
-                    </li>
+
                     <li>
                       <div class="dropdown-divider"></div>
                     </li>
                     <li>
                       <a class="dropdown-item" href="auth-login-basic.html">
                         <i class="bx bx-power-off me-2"></i>
-                        <span class="align-middle">Log Out</span>
+                        <span class="align-middle">خروج از حساب</span>
                       </a>
                     </li>
                   </ul>
@@ -569,13 +573,13 @@
 
           <!-- Content wrapper -->
           <div class="content-wrapper">
-           
+
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
             <!-- Basic Bootstrap Table -->
-            <div class="card">
-              <h5 class="card-header">Table Basic</h5>
+            <div dir="rtl" class="card">
+              <h5 class="card-header">لیست کاربران</h5>
               <div class="table-responsive text-nowrap">
                 <table class="table">
                   <thead>
@@ -588,212 +592,43 @@
                       <th>تعداد تقویم</th>
                     </tr>
                   </thead>
-                  <tbody class="table-border-bottom-0">
-                    <tr>
-                      <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong></strong></td>
-                      <td></td>
-                      <td>
-                        <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Lilian Fuller"
-                          >
-                           
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Sophia Wilkerson"
-                          >
-                           
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Christina Parker"
-                          >
-                            
-                          </li>
-                        </ul>
-                      </td>
-                      <td><span class="badge bg-label-primary me-1"></td>
-                      <td>
-                        <div class="dropdown">
-                          <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                            <i class="bx bx-dots-vertical-rounded"></i>
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                            >
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-trash me-1"></i> Delete</a
-                            >
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td><i class="fab fa-react fa-lg text-info me-3"></i> <strong></strong></td>
-                      <td></td>
-                      <td>
-                        <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Lilian Fuller"
-                          >
-                            
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Sophia Wilkerson"
-                          >
-                           
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Christina Parker"
-                          >
-                            
-                          </li>
-                        </ul>
-                      </td>
-                      <td><span class="badge bg-label-success me-1"></span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                            <i class="bx bx-dots-vertical-rounded"></i>
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                            >
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-trash me-2"></i> Delete</a
-                            >
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td><i class="fab fa-vuejs fa-lg text-success me-3"></i> <strong></strong></td>
-                      <td></td>
-                      <td>
-                        <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Lilian Fuller"
-                          >
-                           
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Sophia Wilkerson"
-                          >
-                            
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Christina Parker"
-                          >
-                           
-                          </li>
-                        </ul>
-                      </td>
-                      <td><span class="badge bg-label-info me-1"></span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                            <i class="bx bx-dots-vertical-rounded"></i>
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                            >
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-trash me-2"></i> Delete</a
-                            >
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <i class="fab fa-bootstrap fa-lg text-primary me-3"></i> <strong></strong>
-                      </td>
-                      <td>
-                        <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Lilian Fuller"
-                          >
-                            
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Sophia Wilkerson"
-                          >
-                            
-                          </li>
-                          <li
-                            data-bs-toggle="tooltip"
-                            data-popup="tooltip-custom"
-                            data-bs-placement="top"
-                            class="avatar avatar-xs pull-up"
-                            title="Christina Parker"
-                          >
-                            
-                          </li>
-                        </ul>
-                      </td>
-                      <td><span class="badge bg-label-warning me-1"></span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                            <i class="bx bx-dots-vertical-rounded"></i>
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-edit-alt me-2"></i> Edit</a
-                            >
-                            <a class="dropdown-item" href="javascript:void(0);"
-                              ><i class="bx bx-trash me-2"></i> Delete</a
-                            >
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
+                  <tbody class="">
+                    <?php
+                    include '../../portal/conn.php';
+
+                    // query to retrieve fullname column for all users
+                    $sql = "SELECT * FROM user";
+
+                    $result = $conn->query($sql);
+
+                    // check if a row was returned
+                    if ($result->num_rows > 0) {
+                        $rows = array();
+
+                        // fetch the rows and extract the fullname value
+                        while ($row = $result->fetch_assoc()) {
+                            $users[] = ['fullname' => $row['fullname'] , 'email' => $row['email'] , 'password' => $row['password'] , 'credit' => $row['credit'] , ];
+                        }
+                      }
+                    // close the database connection
+                    $conn->close();
+
+                    foreach ($users as $user){
+                      echo '
+                        <tr>
+                          <td>'.$user['fullname'].'</td>
+                          <td>'.$user['email'].'</td>
+                          <td>'.$user['password'].'</td>
+                          <td>'.$user['credit'].'</td>
+                          <td class="active-account">فعال</td>
+                          <td>0</td>
+                        </tr>
+
+                      ';
+                    }
+
+                    ?>
+
                   </tbody>
                 </table>
               </div>
@@ -805,9 +640,9 @@
             <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                  
+
                   هفته نو
-                  
+
                 </div>
                 <div>
                   <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
@@ -843,14 +678,7 @@
     </div>
     <!-- / Layout wrapper -->
 
-    <div class="buy-now">
-      <a
-        href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
-        target="_blank"
-        class="btn btn-danger btn-buy-now"
-        >Upgrade to Pro</a
-      >
-    </div>
+
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->

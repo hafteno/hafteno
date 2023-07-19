@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="h-100" lang="fa">
   <head>
@@ -30,8 +31,15 @@
             </a>
           </header>
           <main class="mb-auto col-12">
+            <?php
+            if(isset($_GET['success']) && $_GET['success'] == 1){
+              echo '<div class="alert alert-success" role="alert">
+              پیام شما با موفقیت ارسال شد
+                    </div>';
+            }
+            ?>
             <h2 class="fw-bolder text-secondary mb-5">تماس با ما</h1>
-            <form class="row" action="portal/index.php?p=login" method="POST">
+            <form class="row" action="send_message.php" method="POST">
               <div class="col-12">
                 <div class="mb-3">
                   <label for="email" class="form-label">آدرس ایمیل</label>
@@ -39,14 +47,14 @@
                   <div id="emailHelp" class="form-text">هیچ وقت ایمیل شما را با دیگران به اشتراک نمی‌گذاریم.</div>
                 </div>
                 <div class="mb-3">
-                  <label for="subject" class="form-label">موضوع پیام</label>
-                  <input type="text" class="form-control form-control-lg bg-gray-800 border-dark" name="password" id="exampleInputPassword1">
+                  <label for="title" class="form-label">موضوع پیام</label>
+                  <input type="text" class="form-control form-control-lg bg-gray-800 border-dark" name="title" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                   <label for="message" class="form-label">متن پیام</label>
-                  <textarea type="test" class="form-control form-control-lg bg-gray-800 border-dark" name="password" id="exampleInputPassword1"></textarea>
+                  <textarea type="test" class="form-control form-control-lg bg-gray-800 border-dark" name="message" id="exampleInputPassword1"></textarea>
                 </div>
-                <button type="submit" name="login_button" class="btn btn-white btn-xl mb-4 fw-bolder">ارسال پیام</button>
+                <button type="submit" name="send_message" class="btn btn-white btn-xl mb-4 fw-bolder">ارسال پیام</button>
               </div>
             </form>
           </main>

@@ -8,28 +8,9 @@ a{
     text-decoration:none !important;
 }
 
-#loading-overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    pointer-events: none;
-}
+/* CSS for the loading cover */
 
-#loading-overlay img {
-    width: 50px;
-    height: 50px;
-}
 
-.content {
-    /* Your website content styles go here */
-}
  .credit-box {
       border-radius: 10px;
       background-color: #007bff;
