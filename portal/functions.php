@@ -4,7 +4,7 @@
         $sql = "INSERT INTO user (email, password, fullname,credit,created_at,last_modified)VALUES ('$email', '$password', '$fullname',$credit,NOW(),NOW())";
 
         if ($conn->query($sql) === TRUE) {
-        header('location: ?p=login');
+        header('location: ../system.html');
         } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
         }
