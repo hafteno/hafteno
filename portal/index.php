@@ -57,7 +57,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'panel'){
         $panel =  str_replace("<!--###name###-->",getName(),$panel);
     }
     else{
-        header('Location: ?p=login');
+        header('Location: ../system.html');
     }
     $credit = getCredit();
     if($credit <= 25000){
@@ -119,8 +119,8 @@ if(isset($_POST['generate_cc'])){
         echo '<script type="text/javascript">';
         echo 'window.location.href = "?p=calendar";';
         echo '</script>';
-
-
+        
+        
 
     }
 }
@@ -135,7 +135,7 @@ if(!isset($_GET['p'])) {
       }
     }
     else{
-        header('location: ?p=login');
+        header('location: ../system.html');
     }
 }
 
@@ -299,7 +299,7 @@ if(isset($_GET['p']) && $_GET['p'] == 'calendar'){
         }
     }
     else{
-        header('Location: ?p=login');
+        header('Location: ../system.html');
     }
 }
 if(isset($_GET['p']) && $_GET['p'] == 'wallet'){
@@ -345,7 +345,18 @@ if(isset($_POST['login_button'])){
 }
 echo '<footer>
 <a href="https://wa.me/4915774239103"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" style="width:50px;position: fixed;bottom: 20px;right: 20px;"></a>
+<<<<<<< HEAD
 </footer></div>';
 echo $_SESSION['isAdmin'];
 echo '</body></html>';
+=======
+<<<<<<< Updated upstream
+</footer></div>
+
+</body></html>';
+=======
+</footer></div>';
+echo '</body></html>';
+>>>>>>> Stashed changes
+>>>>>>> homepage
 ?>
