@@ -135,7 +135,7 @@ if(!$_SESSION['isAdmin']){
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item">
-              <a href="index.html" class="menu-link">
+              <a href="index.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">پیشخوان</div>
               </a>
@@ -144,7 +144,7 @@ if(!$_SESSION['isAdmin']){
 
             <!-- لیست کاربران -->
             <li class="menu-item active">
-              <a href="user-list.html" class="menu-link">
+              <a href="user-list.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">لیست کاربران</div>
               </a>
@@ -152,7 +152,7 @@ if(!$_SESSION['isAdmin']){
 
             <!-- تقویم کاربر -->
             <li class="menu-item">
-              <a href="user-calendars.html" class="menu-link">
+              <a href="user-calendars.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">تقویم های کاربر</div>
               </a>
@@ -160,7 +160,7 @@ if(!$_SESSION['isAdmin']){
 
             <!-- صورت حساب کاربر -->
             <li class="menu-item">
-              <a href="user-invoice.html" class="menu-link">
+              <a href="user-invoice.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">صورت حساب کاربر</div>
               </a>
@@ -584,12 +584,13 @@ if(!$_SESSION['isAdmin']){
                 <table class="table">
                   <thead>
                     <tr>
+                    <th>ID</th>
                       <th>نام و نام خانوادگی</th>
                       <th>ایمیل</th>
                       <th>پسورد</th>
                       <th>موجودی حساب</th>
                       <th>وضعیت حساب</th>
-                      <th>تعداد تقویم</th>
+                      <th>تقویم ها</th>
                     </tr>
                   </thead>
                   <tbody class="">
@@ -607,7 +608,7 @@ if(!$_SESSION['isAdmin']){
 
                         // fetch the rows and extract the fullname value
                         while ($row = $result->fetch_assoc()) {
-                            $users[] = ['fullname' => $row['fullname'] , 'email' => $row['email'] , 'password' => $row['password'] , 'credit' => $row['credit'] , ];
+                            $users[] = ['id' => $row['id'] ,'fullname' => $row['fullname'] , 'email' => $row['email'] , 'password' => $row['password'] , 'credit' => $row['credit'] , ];
                         }
                       }
                     // close the database connection
@@ -616,12 +617,13 @@ if(!$_SESSION['isAdmin']){
                     foreach ($users as $user){
                       echo '
                         <tr>
+                        <td>'.$user['id'].'</td>
                           <td>'.$user['fullname'].'</td>
                           <td>'.$user['email'].'</td>
                           <td>'.$user['password'].'</td>
                           <td>'.$user['credit'].'</td>
                           <td class="active-account">فعال</td>
-                          <td>0</td>
+                          <td><a href="user-calendars.php?user_id='.$user['id'].'">نمایش</a></td>
                         </tr>
 
                       ';

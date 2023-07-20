@@ -136,7 +136,7 @@ if(!$_SESSION['isAdmin']){
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
             <li class="menu-item active">
-              <a href="index.html" class="menu-link">
+              <a href="index.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">پیشخوان</div>
               </a>
@@ -144,21 +144,21 @@ if(!$_SESSION['isAdmin']){
 
             <!-- لیست کاربران -->
             <li class="menu-item">
-              <a href="user-list.html" class="menu-link">
+              <a href="user-list.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">لیست کاربران</div>
               </a>
             </li>
             <!-- تقویم کاربر -->
             <li class="menu-item">
-              <a href="user-calendars.html" class="menu-link">
+              <a href="user-calendars.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">تقویم های کاربر</div>
               </a>
             </li>
             <!-- صورت حساب کاربر -->
             <li class="menu-item">
-              <a href="user-invoice.html" class="menu-link">
+              <a href="user-invoice.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">صورت حساب کاربر</div>
               </a>

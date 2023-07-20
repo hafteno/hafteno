@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if(!isset($_SESSION['isAdmin']) || !$_SESSION['isAdmin']){
     header('Content-Type: application/json');
     echo json_encode(['success' => false, 'message' => 'Authentication required']);
@@ -19,7 +18,7 @@ else{
 
         // fetch the rows and extract the fullname value
         while ($row = $result->fetch_assoc()) {
-            $users[] = ['fullname' => $row['fullname'] , 'email' => $row['email'] , 'password' => $row['password'] , 'credit' => $row['credit'] , ];
+            $users[] = ['id' => $row['id'] , 'fullname' => $row['fullname'] , 'email' => $row['email'] , 'password' => $row['password'] , 'credit' => $row['credit'] , ];
         }
 
         // send the response as JSON

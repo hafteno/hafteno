@@ -82,6 +82,7 @@ if(isset($_POST['generate_cc'])){
         $category = $_POST['category'];
         $job = $_POST['job'];
         $desc = $_POST['desc'];
+        $igUser = $_POST['instagram_id'];
 
         $new_credit = ($credit - 20000);
         $stmt = $conn->prepare("UPDATE user SET credit = ? WHERE id=?");
@@ -94,10 +95,10 @@ if(isset($_POST['generate_cc'])){
         if ($stmt->execute()) {
             $json_response = requestChatGPT('[no prose][only json output][{day in english:{ideas:[array of ideas in persian]}}]به عنوان یک متخصص شبکه اجتمایی اینستاکرام برای این صفحه یک تقویم محتوایی برای پست و استوری یک هفته ای بنویس که این پست ها وایرال شوند تا حدود ۱ میلیون بازدیداین صفحه در زمینه '.$category.' با فعالیت بصورت تخصصی در زمینه '.$job.' میباشدخلاصه فعالیت ما:'.$desc);
 
-            $stmt2 = $conn->prepare("INSERT INTO weekcalendar (user_id, title, subtitle, description, data) VALUES (?, ?, ?, ?, ?)");
+            $stmt2 = $conn->prepare("INSERT INTO weekcalendar (user_id, title, subtitle, description, instagram_id, data) VALUES (?, ?, ?, ?, ?, ?)");
 
             // Bind parameters to the statement
-            $stmt2->bind_param("issss", $user_id, $title, $subtitle, $description, $data);
+            $stmt2->bind_param("isssss", $user_id, $title, $subtitle, $description, $igUser, $data);
 
             // Set the values for each parameter
             $user_id = $_SESSION['id'];
