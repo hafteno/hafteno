@@ -15,3 +15,14 @@ the object has weekday in english,ideas(array)
             max_tokens: 1000,
             temperature: 0.7,
             model: 'gpt-3.5-turbo'
+
+
+chatgpt ok beshe -> 1 post va 1 story
+*bank? Bank
+register form  Amir -> form sanbte nam class 
+forgot password Amir
+discount -> payping Amir
+transaction table ->payping Amir
+titles
+slider pictures
+Payping

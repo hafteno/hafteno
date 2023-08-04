@@ -1,0 +1,337 @@
+[19-Jul-2023 07:06:40 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:06:40 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:06:40 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:06:40 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:06:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:06:57 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:06:57 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:06:57 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:06:57 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:06:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:07:34 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:07:34 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:07:34 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:07:34 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:07:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:09:15 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:09:15 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:09:15 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:09:15 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:09:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:09:17 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:09:17 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:09:17 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 07:09:17 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 07:09:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:04:22 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:04:22 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:04:22 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:04:22 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:04:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:05:11 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:05:11 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:05:11 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:05:11 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:05:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:08:03 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:08:03 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:08:03 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:08:03 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:08:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:09:46 Europe/Berlin] PHP Warning:  include(/portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:09:46 Europe/Berlin] PHP Warning:  include(/portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:09:46 Europe/Berlin] PHP Warning:  include(): Failed opening '/portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:09:46 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:09:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:09:53 Europe/Berlin] PHP Warning:  include(/portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:09:53 Europe/Berlin] PHP Warning:  include(/portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:09:53 Europe/Berlin] PHP Warning:  include(): Failed opening '/portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:09:53 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:09:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:12:21 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:12:21 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:12:21 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:12:21 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:12:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 08:19:14 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:19:45 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:19:56 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:20:02 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:20:02 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:20:02 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:20:03 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:20:45 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:26:08 Europe/Berlin] PHP Notice:  Undefined variable: _SESSION in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 08:27:30 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:27:30 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:27:30 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:27:30 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:27:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:27:50 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:27:50 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:27:50 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:27:50 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:27:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:27:59 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:27:59 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:27:59 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:27:59 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:27:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:01 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:01 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:01 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:01 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:25 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:25 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:25 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:25 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:32 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:32 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:32 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:32 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:34 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:34 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:34 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:34 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:39 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:39 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:39 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:39 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:40 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:40 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:40 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:28:40 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:28:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:29:16 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:29:16 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:29:16 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:29:16 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:29:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:29:42 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:29:42 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:29:42 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:29:42 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:29:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:29:46 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:29:46 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:29:46 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:29:46 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:29:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:08 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:08 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:08 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:08 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:17 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:17 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:17 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:17 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:19 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:19 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:19 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:19 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:31 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:31 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:31 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:31 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:55 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:55 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:55 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 8
+[19-Jul-2023 08:31:55 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:31:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 13
+[19-Jul-2023 08:32:03 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:03 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:03 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:03 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:10 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:10 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:10 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:10 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:15 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:15 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:15 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:15 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:23 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:23 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:23 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:23 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:25 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:25 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:25 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:25 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:27 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:27 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:27 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 9
+[19-Jul-2023 08:32:27 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 14
+[19-Jul-2023 08:32:30 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 10
+[19-Jul-2023 08:32:30 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 10
+[19-Jul-2023 08:32:30 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 10
+[19-Jul-2023 08:32:30 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 15
+[19-Jul-2023 08:32:30 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 15
+[19-Jul-2023 08:32:37 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 10
+[19-Jul-2023 08:32:37 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 10
+[19-Jul-2023 08:32:37 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 10
+[19-Jul-2023 08:32:37 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 15
+[19-Jul-2023 08:32:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 15
+[19-Jul-2023 10:48:50 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 10:48:50 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 10:48:50 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 10:48:50 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 10:48:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 10:48:54 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 10:48:54 Europe/Berlin] PHP Warning:  include(../../portal/conn.php): failed to open stream: No such file or directory in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 10:48:54 Europe/Berlin] PHP Warning:  include(): Failed opening '../../portal/conn.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/h222937/public_html/api/get_users.php on line 2
+[19-Jul-2023 10:48:54 Europe/Berlin] PHP Notice:  Undefined variable: conn in /home/h222937/public_html/api/get_users.php on line 7
+[19-Jul-2023 10:48:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/h222937/public_html/api/get_users.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/h222937/public_html/api/get_users.php on line 7
